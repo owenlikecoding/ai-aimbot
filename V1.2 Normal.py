@@ -20,7 +20,7 @@ ln = [ln[i - 1] for i in net.getUnconnectedOutLayers()]
 
 # Get screen size
 screen_info = "2560x1600"
-screen_size = screen_info.width, screen_info.height
+screen_size = screen_info
 
 region = 0, 0, screen_size[0], screen_size[1]
 
