@@ -20,7 +20,7 @@ ln = net.getLayerNames()
 ln = [ln[i - 1] for i in net.getUnconnectedOutLayers()]
 
 # Get screen size
-screen_info = gw.getWindowsWithTitle('GeForce NOW')[0]
+screen_info = gw.getWindowsWithTitle('Fortnite')[0]
 screen_size = screen_info.width, screen_info.height
 
 region = 0, 0, screen_size[0], screen_size[1]
